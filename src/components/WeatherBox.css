@@ -1,0 +1,40 @@
+.weather-box-list {
+  width: 100%;
+  max-width: 850px;
+  margin: 70px auto 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.weather-box-list > li {
+  list-style-type: none;
+}
+
+.weather-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 180px;
+  background-color: rgba(255, 255, 255);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.weather-box > img {
+  width: 80px;
+  height: 80px;
+}
+
+.weather-box > h1 {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.temp {
+  padding-top: 10px;
+  font-size: 1em;
+}
